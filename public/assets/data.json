@@ -9,7 +9,7 @@
       "cover": "/assets/images/brother-louie.jpg",
       "src": "/assets/music/brother-louie.mp3",
       "liked": true,
-      "views": "89,990"
+      "views": 89990
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "cover": "assets/images/khud-ko-tere.jpg",
       "src": "/assets/music/khud-ko-tere.mp3",
       "liked": false,
-      "views": "93,900"
+      "views": 93900
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "cover": "/assets/images/husn.jpg",
       "src": "/assets/music/husn.mp3",
       "liked": true,
-      "views": "1,82,330"
+      "views": 182330
     },
     {
       "id": 4,
@@ -42,7 +42,106 @@
       "cover": "/assets/images/raanjhana.jpg",
       "src": "/assets/music/raanjhana.mp3",
       "liked": false,
-      "views": "70,009"
+      "views": 70009
+    },
+    {
+      "id": 5,
+      "title": "Tere Naina",
+      "artist": "Shanka Mahadevan",
+      "album": "My Name Is Khan",
+      "duration": "04:32",
+      "cover": "/assets/images/tere-naina.jpg",
+      "src": "/assets/music/tere-naina.mp3",
+      "liked": true,
+      "views": 502023
+    },
+    {
+      "id": 6,
+      "title": "Tum se hi",
+      "artist": "Mohit Chauhan",
+      "album": "Jab We Met",
+      "duration": "04:18",
+      "cover": "/assets/images/tum-se-hi.jpeg",
+      "src": "/assets/music/tum-se-hi.mp3",
+      "liked": false,
+      "views": 120050
+    },
+    {
+      "id": 7,
+      "title": "Yellow",
+      "artist": "Coldplay",
+      "album": "Parachutes",
+      "duration": "04:27",
+      "cover": "/assets/images/yellow.jpg",
+      "src": "/assets/music/yellow.mp3",
+      "liked": true,
+      "views": 2399021
+    },
+    {
+      "id": 8,
+      "title": "You're my heart",
+      "artist": "Modern Talking",
+      "album": "Modern Talking",
+      "duration": "03:14",
+      "cover": "/assets/images/my-heart.jpg",
+      "src": "/assets/music/my-heart.mp3",
+      "liked": true,
+      "views": 1103030
+    },
+    {
+      "id": 9,
+      "title": "Tum ho mera pyar",
+      "artist": "K.K",
+      "album": "Haunted",
+      "duration": "05:10",
+      "cover": "/assets/images/tum-ho-mera-pyaar.jpeg",
+      "src": "/assets/music/tum-ho-mera-pyaar.mp3",
+      "liked": false,
+      "views": 64023
+    },
+    {
+      "id": 10,
+      "title": "Night Changes",
+      "artist": "One Direction",
+      "album": "Four",
+      "duration": "03:51",
+      "cover": "/assets/images/night-changes.jpg",
+      "src": "/assets/music/night-changes.mp3",
+      "liked": true,
+      "views": 200062
+    },
+    {
+      "id": 11,
+      "title": "Tumhare hi rahenge",
+      "artist": "Arijit Singh",
+      "album": "Stree 2",
+      "duration": "03:08",
+      "cover": "/assets/images/tumhare-hi-rahenge.jpeg",
+      "src": "/assets/music/tumhare-hi-rahenge.mp3",
+      "liked": false,
+      "views": 289221
+    },
+    {
+      "id": 12,
+      "title": "Blue",
+      "artist": "Young Kai",
+      "album": "Single",
+      "duration": "03:34",
+      "cover": "/assets/images/blue.jpeg",
+      "src": "/assets/music/blue.mp3",
+      "liked": true,
+      "views": 1220320
+    },
+    {
+      "id": 13,
+      "title": "O Maahi",
+      "artist": "Arijit Singh",
+      "album": "Dunki",
+      "duration": "04:13",
+      "cover": "/assets/images/omaahi.jpeg",
+      "src": "/assets/music/omaahi.mp3",
+      "liked": false,
+      "views": 98998
     }
   ]
 }
