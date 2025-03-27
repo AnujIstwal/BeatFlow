@@ -14,16 +14,9 @@ import { useCurrentSong } from "../context/context";
 import { GoHeart, GoHeartFill } from "react-icons/go";
 
 const Player = () => {
-  const {
-    currentSong,
-    isPlaying,
-    setIsPlaying,
-    playNext,
-    playPrevious,
-    songs,
-  } = useCurrentSong();
+  const { currentSong, isPlaying, setIsPlaying, playNext, playPrevious } =
+    useCurrentSong();
 
-  console.log(songs);
   const audioRef = useRef(null);
   // Automatically play the next song when the current one ends
   useEffect(() => {

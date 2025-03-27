@@ -13,7 +13,7 @@ export const SongProvider = ({ children }) => {
         const timestamp = new Date().getTime(); // Cache-busting parameter
         const response = await fetch(`/assets/data.json?nocache=${timestamp}`);
         const { songs } = await response.json();
-        console.log(songs);
+
         setSongs(songs);
       };
       fetchSongs();

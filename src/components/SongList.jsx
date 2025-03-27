@@ -32,8 +32,6 @@ export default function SongList({ category }) {
           (p) => p.name === category,
         );
 
-        console.log(selectedPlaylist);
-
         if (selectedPlaylist) {
           setFilteredSongs(
             songs.filter((song) => selectedPlaylist.songs.includes(song.id)),
