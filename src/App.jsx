@@ -21,7 +21,7 @@ function App() {
           {/* Main Content */}
           <div className="flex-1 bg-[#131313] px-4 py-2">
             <div className="h-full w-full rounded-4xl border border-gray-700 bg-gradient-to-br from-[#313131]/80 via-[#473338]/80 to-[#2c4e52]/80">
-              <div className="flex h-full w-full flex-col md:flex-row">
+              <div className="flex h-full w-full flex-col-reverse md:flex-row">
                 <div className="flex h-full w-full flex-col md:w-[35%]">
                   <div className="h-[40%] w-full pt-4 pr-4 pb-2 pl-4 sm:pr-2">
                     <TodayPlaylist />

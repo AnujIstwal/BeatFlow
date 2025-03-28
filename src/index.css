@@ -15,17 +15,17 @@ body {
 
 /* Wide scrollbar with gradient thumb  */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #505050;
+  background: #3b3b3b;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #000000, #383838);
+  background: linear-gradient(to bottom, #000000, #222222);
   border-radius: 10px;
 }
 
