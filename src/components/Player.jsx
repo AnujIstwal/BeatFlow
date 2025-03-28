@@ -29,7 +29,7 @@ const Player = () => {
   }, [currentSong, playNext, setIsPlaying]);
 
   return (
-    <div className="player-container mx-auto flex w-full items-center rounded-lg border border-gray-600 px-6 py-1 shadow-lg">
+    <div className="player-container mx-auto flex w-full items-center rounded-lg border border-gray-600 py-1 shadow-lg sm:px-6">
       <div className="hidden w-[32%] max-w-[340px] items-center gap-4 md:flex">
         {/* Album Art */}
         <img

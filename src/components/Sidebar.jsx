@@ -27,18 +27,16 @@ const menuItems = [
 
 const Sidebar = ({ setCategory, category }) => {
   return (
-    <div className="flex h-full w-full flex-row items-center justify-around p-6 md:w-64 md:flex-col md:items-start">
+    <div className="flex h-full w-full flex-col items-center justify-around gap-y-4 p-6 md:w-64 md:items-start md:gap-y-0">
       {/* Logo */}
       <div className="flex items-center justify-center md:ml-6">
         <img src="logo.png" alt="Logo" className="h-12 w-12" />
       </div>
 
       {/* Music Categories */}
-      <div className="flex-1 md:flex-none">
-        <h3 className="mb-3 hidden text-sm text-gray-100 uppercase md:block md:text-gray-500">
-          Your Music
-        </h3>
-        <ul className="flex items-baseline justify-evenly space-y-3 text-[.92rem] md:ml-4 md:block">
+      <div className="w-full">
+        <h3 className="mb-3 text-sm text-gray-500 uppercase">Your Music</h3>
+        <ul className="flex items-baseline justify-evenly space-y-3 gap-x-4 text-[.92rem] md:ml-4 md:block">
           {menuItems.map((item) => (
             <li
               key={item.id}
@@ -46,20 +44,16 @@ const Sidebar = ({ setCategory, category }) => {
               className={`flex cursor-pointer items-center gap-3 transition ${category === item.id ? "font-bold" : ""}`}
             >
               {item.icon}
-              <span className="hidden text-gray-300 md:block">
-                {item.label}
-              </span>
+              <span className="text-gray-300">{item.label}</span>
             </li>
           ))}
         </ul>
       </div>
 
       {/* Playlist Section */}
-      <div className="hidden md:block">
-        <h3 className="mb-3 text-sm text-gray-100 uppercase md:text-gray-500">
-          Your Playlists
-        </h3>
-        <ul className="ml-4 space-y-3 text-[.92rem]">
+      <div className="w-full">
+        <h3 className="mb-3 text-sm text-gray-500 uppercase">Your Playlists</h3>
+        <ul className="flex items-baseline justify-evenly space-y-3 gap-x-4 text-[.92rem] md:ml-4 md:block">
           <li
             onClick={() => setCategory("romantic")}
             className="flex cursor-pointer items-center gap-3"

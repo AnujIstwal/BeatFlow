@@ -23,10 +23,10 @@ function App() {
             <div className="h-full w-full rounded-4xl border border-gray-700 bg-gradient-to-br from-[#313131]/80 via-[#473338]/80 to-[#2c4e52]/80">
               <div className="flex h-full w-full flex-col md:flex-row">
                 <div className="flex h-full w-full flex-col md:w-[35%]">
-                  <div className="h-[40%] w-full pt-4 pr-2 pb-2 pl-4">
+                  <div className="h-[40%] w-full pt-4 pr-4 pb-2 pl-4 sm:pr-2">
                     <TodayPlaylist />
                   </div>
-                  <div className="w-full flex-1 pt-2 pr-2 pb-4 pl-4">
+                  <div className="w-full flex-1 pt-2 pr-4 pb-4 pl-4 sm:pr-2">
                     <div className="flex h-full w-full rounded-4xl border border-gray-700 bg-[#1D1D1D]/50">
                       <TopArtists />
                     </div>
@@ -34,7 +34,7 @@ function App() {
                 </div>
 
                 {/* Songs list */}
-                <div className="h-full w-full flex-1 py-4 pr-4 pl-2 md:w-64">
+                <div className="h-full w-full flex-1 py-4 pr-4 pl-4 sm:pl-2 md:w-64">
                   <div className="flex h-full w-full rounded-4xl border border-gray-700 bg-[#1D1D1D]/70 p-6">
                     <SongList category={category} />
                   </div>
